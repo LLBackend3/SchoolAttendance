@@ -47,7 +47,7 @@ class AttendanceRepositoryTest {
         Student savedStudent = savedAttendance.getStudent();
         Classname savedClassname = savedStudent.getClassname();
 
-        System.out.println("Attendance: " + savedAttendance.getDate() + ", present? " + savedAttendance.isPresent());
+        System.out.println("Attendance: " + savedAttendance.getDate());
         System.out.println("Student: " + savedStudent.getName());
         System.out.println("Class: " + savedClassname.getTitle());
     }
