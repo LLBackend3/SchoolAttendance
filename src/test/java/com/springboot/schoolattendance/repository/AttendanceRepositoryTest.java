@@ -49,3 +49,4 @@ class AttendanceRepositoryTest {
         System.out.println("Student: " + savedStudent.getName());
         System.out.println("Class: " + savedClassname.getTitle());
     }
+}
