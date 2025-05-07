@@ -17,6 +17,6 @@ public class Student {
     private String name;
 
     @OneToOne
-    private Class classname;
+    private Classname classname;
 }
 

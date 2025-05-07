@@ -1,4 +1,4 @@
 package com.springboot.schoolattendance.entity;
 
-public class Class {
+public class Classname {
 }
