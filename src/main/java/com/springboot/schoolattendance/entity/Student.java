@@ -18,6 +18,5 @@ public class Student {
 
     @OneToOne
     private Class classname;
-
 }
 
