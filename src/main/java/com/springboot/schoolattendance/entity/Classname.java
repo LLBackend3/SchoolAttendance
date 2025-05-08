@@ -5,18 +5,18 @@ import lombok.*;
 
 @Entity
 @Table
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter @Setter @NoArgsConstructor @AllArgsConstructor
 @EqualsAndHashCode
-public class Student {
+public class Classname {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+
+    private String classname;
+
+    private String title;
 
     @OneToOne
-    private Classname classname;
-}
+    private Attendance attendance;
 
+}
